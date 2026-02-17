@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.video-row {
+  display: flex;
+  gap: 25px;
+  padding:20px;
+  justify-content: center;
+}
+
+.video-card {
+padding: 10px;
+  border-radius: 20px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  
+  flex: 0 1 calc(33.333% - 20px);
+  aspect-ratio: 16/9;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgb(176, 212, 230);
+}
+
+.video-card iframe {
+  
+  border-radius: 20px;
+}
+
+.card-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.channel-icon {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.text {
+  color: white;
+}
+
+.text p {
+  margin: 2px 0;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.sub {
+  font-size: 0.85rem;
+  color: #aaaaaa;
+}
+.logo {
+  
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  align-self: left;
+  width: 100px;
+  border-radius: 40px;
+  padding: 15px;
+}
+.search {
+  border: #e5e5e5;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.search i {
+  color: grey;
+  background-color: white;
+
+  padding: 10px;
+}
+input {
+  width: 300px;
+  padding: 10px;
+
+  outline: none;
+}
+header {
+  color: #aaaaaa;
+}
+.left{
+    align-items: last baseline;
+}
+.but-n{
+    border: 1px solid ;
+    border-radius: 70px;
+    background-color: orangered;
+}
+button{
+    border-radius: 20px;
+    padding: 15px;
+    align-items: center;
+    text-transform: uppercase;
+    background-color:rgb(187, 178, 178)
+}
